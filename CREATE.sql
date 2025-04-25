@@ -46,3 +46,4 @@ track_id SERIAL REFERENCES Tracks(track_id),
 compilation_id SERIAL REFERENCES Compilations(compilation_id),
 PRIMARY KEY(track_id,compilation_id)
 );
+
